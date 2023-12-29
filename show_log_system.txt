@@ -1,0 +1,335 @@
+Time                Severity Subtype Object EventID ID Description
+
+===============================================================================
+
+2023/12/19 09:31:17 info     general        general 0  Connection to Update server: updates.paloaltonetworks.com completed successfully, initiated by 10.10.10.4
+
+2023/12/19 09:31:17 info     general        general 0  Connection to Update server: updates.paloaltonetworks.com completed successfully, initiated by 10.10.10.4
+
+2023/12/19 09:30:50 info     general        general 0  User admin logged in via Web from 208.184.7.6 using https
+
+2023/12/19 09:30:50 info     auth           auth-su 0  authenticated for user 'admin'.   From: 208.184.7.6.
+
+2023/12/19 09:29:08 info     dhcp    ethern if-upda 0  DHCP client (ip-10-10-11-4) assigned IP: 10.10.11.4 on interface: ethernet1/1 for lease time of: 0 days 1h:00m:00s from server: 10.10.11.1. Subnet mask:255.255.255.0 Gateway:10.10.11.1 DNS1:10.10.0.2 DNS Suffix:us-east-2.compute.internal 
+
+2023/12/19 09:29:08 info     dhcp    ethern if-upda 0  DHCP client (ip-10-10-12-4) assigned IP: 10.10.12.4 on interface: ethernet1/2 for lease time of: 0 days 1h:00m:00s from server: 10.10.12.1. Subnet mask:255.255.255.0 Gateway:10.10.12.1 DNS1:10.10.0.2 DNS Suffix:us-east-2.compute.internal 
+
+2023/12/19 09:27:55 info     general        general 0  Connection to Update server: updates.paloaltonetworks.com completed successfully, initiated by 10.10.10.4
+
+2023/12/19 09:25:18 info     dhcp           if-rene 0  DHCP RENEW: interface eth0, ip 10.10.10.4 netmask 255.255.255.0 dhcp server: 10.10.10.1
+
+2023/12/19 09:12:38 critical dynamic        palo-al 0  Urgent Action required: PAN-OS Certificate Expiration on Dec 31 2023. For details, refer to the following Customer Advisory: https://live.paloaltonetworks.com/t5/customer-advisories/emergency-update-required-pan-os-root-and-default-certificate/ta-p/564672
+
+2023/12/19 09:12:38 info     general        general 0  Connection to Update server: updates.paloaltonetworks.com completed successfully, initiated by 10.10.10.4
+
+2023/12/19 08:59:08 info     general        general 0  Autocommit job succeeded  
+
+2023/12/19 08:59:07 info     dhcp    ethern if-upda 0  DHCP client (ip-10-10-11-4) assigned IP: 10.10.11.4 on interface: ethernet1/1 for lease time of: 0 days 1h:00m:00s from server: 10.10.11.1. Subnet mask:255.255.255.0 Gateway:10.10.11.1 DNS1:10.10.0.2 DNS Suffix:us-east-2.compute.internal 
+
+2023/12/19 08:59:07 info     dhcp    ethern if-upda 0  DHCP client (ip-10-10-12-4) assigned IP: 10.10.12.4 on interface: ethernet1/2 for lease time of: 0 days 1h:00m:00s from server: 10.10.12.1. Subnet mask:255.255.255.0 Gateway:10.10.12.1 DNS1:10.10.0.2 DNS Suffix:us-east-2.compute.internal 
+
+2023/12/19 08:59:05 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to Flow exit.
+
+2023/12/19 08:59:05 info     general        general 0  Config installed
+
+2023/12/19 08:59:05 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to Flow started.
+
+2023/12/19 08:59:04 info     port    ethern link-ch 0  Port ethernet1/2: Up   auto duplex
+
+2023/12/19 08:59:03 info     port    ethern link-ch 0  Port ethernet1/2: Up   auto duplex
+
+2023/12/19 08:59:03 info     port    ethern link-ch 0  Port ethernet1/1: Up   auto duplex
+
+2023/12/19 08:59:02 info     port    ethern link-ch 0  Port ethernet1/1: Up   auto duplex
+
+2023/12/19 08:59:01 info     dnsprox mgmt-o object- 0  Dnsproxy object:mgmt-obj was enabled.
+
+2023/12/19 08:59:01 info     dnsprox mgmt-o if-inhe 0  DNS Proxy object: mgmt-obj inherited following values from dynamic interface: mgmt-if: Primary DNS: 10.10.0.2 Secondary DNS: ::
+
+2023/12/19 08:59:01 info     ras            rasmgr- 0  RASMGR daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:59:01 info     sslmgr         sslmgr- 0  SSLMGR daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:59:01 info     satd           satd-co 0  SATD daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:59:01 info     vpn            ike-con 0  IKE daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:59:01 info     routing        routed- 0  Route daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:58:45 info     satd           satd-co 0  SATD daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:58:45 info     sslmgr         sslmgr- 0  SSLMGR daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:58:45 info     ras            rasmgr- 0  RASMGR daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:58:45 info     vpn            ike-con 0  IKE daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:58:44 info     routing        routed- 0  Route daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:58:40 info     general        general 0  AutoCom job started processing. Dequeue time=2023/12/19 08:58:40. Job Id=1.   
+
+2023/12/19 08:58:40 info     general        general 0  AutoCom job enqueued. Enqueue time=2023/12/19 08:58:40. JobId=1.  . Type: Full
+
+2023/12/19 08:58:33 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to IKE daemon exit.
+
+2023/12/19 08:58:33 info     general        general 0  localhost.localdomain connected
+
+2023/12/19 08:58:32 info     vpn            keymgr- 0  KEYMGR daemon is ready.
+
+2023/12/19 08:58:30 info     sslmgr         sslmgr- 0  SSLMGR daemon is ready.
+
+2023/12/19 08:58:30 info     ras            rasmgr- 0  RASMGR daemon is ready.
+
+2023/12/19 08:58:30 info     satd           satd-da 0  SATD daemon is ready.
+
+2023/12/19 08:58:30 info     routing        routed- 0  Route daemon is ready.
+
+2023/12/19 08:58:30 high     general        general 0  Dataplane is now up
+
+2023/12/19 08:58:30 medium   rtsig   dns-si cache-i 0  dns-signature initialization from file storage failed, start with empty cache.
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving ecdsa key of length 521 from cryptod for HA SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving ecdsa key of length 384 from cryptod for HA SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving ecdsa key of length 256 from cryptod for HA SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving rsa key of length 4096 from cryptod for HA SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving rsa key of length 3072 from cryptod for HA SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving rsa key of length 2048 from cryptod for HA SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving ecdsa key of length 521 from cryptod for Mgmt SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving ecdsa key of length 384 from cryptod for Mgmt SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving ecdsa key of length 256 from cryptod for Mgmt SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving rsa key of length 4096 from cryptod for Mgmt SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving rsa key of length 3072 from cryptod for Mgmt SSH
+
+2023/12/19 08:58:30 info     tls            panoram 0  Retrieving rsa key of length 2048 from cryptod for Mgmt SSH
+
+2023/12/19 08:58:30 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to Flow no longer needed.
+
+2023/12/19 08:58:30 info     vpn            keymgr- 0  KEYMGR daemon is initializing.
+
+2023/12/19 08:58:30 info     ras            rasmgr- 0  RASMGR daemon is initializing.
+
+2023/12/19 08:58:30 info     satd           satd-da 0  SATD daemon is initializing.
+
+2023/12/19 08:58:30 info     vpn            ike-dae 0  IKE daemon is initializing.
+
+2023/12/19 08:58:30 info     routing        routed- 0  Route daemon is initializing.
+
+2023/12/19 08:58:30 info     url-fil        url-eng 0  PAN-DB engine started.
+
+2023/12/19 08:58:30 info     url-fil        url-eng 0  PAN-DB engine is starting...
+
+2023/12/19 08:58:30 info     url-fil        upgrade 0  PAN-DB was upgraded to version 0000.00.00.000.
+
+2023/12/19 08:58:30 info     url-fil        url-bac 0  Backup of PAN-DB finished successfully.
+
+2023/12/19 08:58:30 info     url-fil        starts- 0  Starting with backup seed.
+
+2023/12/19 08:58:30 info     userid         connect 0  User-ID Client is connected to collector (null): Serial-number panorama2, vsys_id 1
+
+2023/12/19 08:58:30 info     userid         connect 0  User-ID Client is connected to collector (null): Serial-number panorama, vsys_id 1
+
+2023/12/19 08:58:30 high     general        system- 1  The system is starting up.
+
+2023/12/19 08:58:30 info     dhcp           if-rene 0  DHCP BOUND: interface eth0, ip 10.10.10.4 netmask 255.255.255.0 dhcp server: 10.10.10.1
+
+2023/12/19 08:58:30 info     port    MGT    link-ch 0  Port MGT: Up 10Gb/s  Full duplex
+
+2023/12/19 08:58:30 info     dhcp           if-rele 0  DHCP RELEASE: interface eth0, ip 10.10.10.4 netmask 255.255.255.0 dhcp server: 10.10.10.1
+
+2023/12/19 08:58:29 info     vpn            ike-dae 0  IKE daemon is ready.
+
+2023/12/19 08:58:29 info     general        general 0  VPN Disable mode = off
+
+2023/12/19 08:56:22 info     url-fil        url-eng 0  URL filtering engine stopped...
+
+2023/12/19 08:56:21 info     url-fil        url-bac 0  Backup of PAN-DB finished successfully.
+
+2023/12/19 08:56:19 info     userid         disconn 0  User-ID Client is disconnected from collector (null): IP panorama2, port 0, vsys_id 1
+
+2023/12/19 08:56:19 info     userid         disconn 0  User-ID Client is disconnected from collector (null): IP panorama, port 0, vsys_id 1
+
+2023/12/19 08:56:17 info     vpn            keymgr- 0  KEYMGR daemon has exited.
+
+2023/12/19 08:56:16 info     satd           satd-da 0  SATD daemon has exited.
+
+2023/12/19 08:56:16 info     ras            rasmgr- 0  RASMGR daemon has exited.
+
+2023/12/19 08:56:16 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to IKE daemon no longer needed.
+
+2023/12/19 08:56:16 info     vpn            ike-dae 0  IKE daemon has exited.
+
+2023/12/19 08:56:16 high     general        general 0  l3svc: Could not get child pids.
+
+2023/12/19 08:56:14 info     hw             bootstr 0  Bootstrap successfully completed sw-version: 9.0.6; app-version: 8227-5876; threat-version: 0 av-version: 0; wildfire-version: 0; license feature names: AutoFocus Device License, PA-VM, Threat Prevention, PAN-DB URL Filtering, WildFire License, DNS Security, GlobalProtect Gateway, Premium.
+
+2023/12/19 08:56:12 info     general        general 0  Autocommit job succeeded  
+
+2023/12/19 08:56:10 info     dhcp    ethern if-upda 0  DHCP client  assigned IP: 10.10.11.4 on interface: ethernet1/1 for lease time of: 0 days 1h:00m:00s from server: 10.10.11.1. Subnet mask:255.255.255.0 Gateway:10.10.11.1 DNS1:10.10.0.2 DNS Suffix:us-east-2.compute.internal 
+
+2023/12/19 08:56:10 info     dhcp    ethern if-upda 0  DHCP client  assigned IP: 10.10.12.4 on interface: ethernet1/2 for lease time of: 0 days 1h:00m:00s from server: 10.10.12.1. Subnet mask:255.255.255.0 Gateway:10.10.12.1 DNS1:10.10.0.2 DNS Suffix:us-east-2.compute.internal 
+
+2023/12/19 08:56:08 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to Flow exit.
+
+2023/12/19 08:56:07 info     general        general 0  Config installed
+
+2023/12/19 08:56:07 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to Flow started.
+
+2023/12/19 08:56:06 info     port    ethern link-ch 0  Port ethernet1/2: Up   auto duplex
+
+2023/12/19 08:56:05 info     port    ethern link-ch 0  Port ethernet1/2: Up   auto duplex
+
+2023/12/19 08:56:05 info     port    ethern link-ch 0  Port ethernet1/1: Up   auto duplex
+
+2023/12/19 08:56:04 info     port    ethern link-ch 0  Port ethernet1/1: Up   auto duplex
+
+2023/12/19 08:56:03 info     dnsprox mgmt-o object- 0  Dnsproxy object:mgmt-obj was enabled.
+
+2023/12/19 08:56:03 info     dnsprox mgmt-o if-inhe 0  DNS Proxy object: mgmt-obj inherited following values from dynamic interface: mgmt-if: Primary DNS: 10.10.0.2 Secondary DNS: ::
+
+2023/12/19 08:56:03 info     sslmgr         sslmgr- 0  SSLMGR daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:56:03 info     satd           satd-co 0  SATD daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:56:03 info     ras            rasmgr- 0  RASMGR daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:56:03 info     vpn            ike-con 0  IKE daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:56:03 info     routing        routed- 0  Route daemon configuration load phase-2 succeeded.
+
+2023/12/19 08:55:35 info     satd           satd-co 0  SATD daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:55:34 info     sslmgr         sslmgr- 0  SSLMGR daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:55:34 info     ras            rasmgr- 0  RASMGR daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:55:34 info     vpn            ike-con 0  IKE daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:55:33 info     routing        routed- 0  Route daemon configuration load phase-1 succeeded.
+
+2023/12/19 08:55:28 info     general        general 0  AutoCom job started processing. Dequeue time=2023/12/19 08:55:28. Job Id=2.   
+
+2023/12/19 08:55:28 medium   general        general 0  Content package downloaded but installation could not be scheduled
+
+2023/12/19 08:55:28 medium   general        general 0  Failed to upgrade Content package to version <unknown version>
+
+2023/12/19 08:55:27 high     general        general 0  Threat content: No update is applied. No valid Threat prevention license.
+
+2023/12/19 08:55:20 info     general        general 0  AutoCom job enqueued. Enqueue time=2023/12/19 08:55:20. JobId=2.  . Type: Full
+
+2023/12/19 08:55:16 info     general        general 0  localhost.localdomain connected
+
+2023/12/19 08:55:11 info     general        general 0  Content job started processing. Dequeue time=2023/12/19 08:55:11. Job Id=1.   
+
+2023/12/19 08:55:11 info     general        general 0  Content job enqueued. Enqueue time=2023/12/19 08:55:11. JobId=1.  . Type: Full
+
+2023/12/19 08:55:11 high     general        general 0  Palo Alto Networks content validation check skipped by user 'n/a' for panupv2-all-contents-8254-6028
+
+2023/12/19 08:55:05 info     general        general 0  VM Appliance license is fetched and installed. Pan services will be restart due to capacity change after auto commit.
+
+2023/12/19 08:55:05 info     general        general 0  VM Appliance license is installed.
+
+2023/12/19 08:55:04 info     general        general 0  Connection to Update server: updates.paloaltonetworks.com completed successfully, initiated by 10.10.10.4
+
+2023/12/19 08:54:44 high     general        general 0  Dataplane is now up
+
+2023/12/19 08:54:44 medium   rtsig   dns-si cache-i 0  dns-signature initialization from file storage failed, start with empty cache.
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated ecdsa key of length 521 for HA SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated ecdsa key of length 384 for HA SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated ecdsa key of length 256 for HA SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated rsa key of length 4096 for HA SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated rsa key of length 3072 for HA SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated rsa key of length 2048 for HA SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated ecdsa key of length 521 for Mgmt SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated ecdsa key of length 384 for Mgmt SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated ecdsa key of length 256 for Mgmt SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated rsa key of length 4096 for Mgmt SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated rsa key of length 3072 for Mgmt SSH
+
+2023/12/19 08:54:44 info     tls            panoram 0  Generated rsa key of length 2048 for Mgmt SSH
+
+2023/12/19 08:54:44 info     hw             bootstr 0  Media sanity check successful
+
+2023/12/19 08:54:44 info     hw             bootstr 0  Media detected successfully
+
+2023/12/19 08:54:44 info     hw             bootstr 0  Plugin image (vm_series-1.0.10) installed successfully
+
+2023/12/19 08:54:44 info     hw             bootstr 0  Media sanity check successful
+
+2023/12/19 08:54:44 info     hw             bootstr 0  Media detected successfully
+
+2023/12/19 08:54:44 info     dhcp           if-rene 0  DHCP BOUND: interface eth0, ip 10.10.10.4 netmask 255.255.255.0 dhcp server: 10.10.10.1
+
+2023/12/19 08:54:44 info     port    MGT    link-ch 0  Port MGT: Up 10Gb/s  Full duplex
+
+2023/12/19 08:54:44 info     url-fil        url-eng 0  PAN-DB engine started.
+
+2023/12/19 08:54:44 info     url-fil        url-eng 0  PAN-DB engine is starting...
+
+2023/12/19 08:54:44 info     url-fil        upgrade 0  PAN-DB was upgraded to version 0000.00.00.000.
+
+2023/12/19 08:54:44 info     url-fil        url-bac 0  Backup of PAN-DB finished successfully.
+
+2023/12/19 08:54:44 info     url-fil        starts- 0  Starting with an empty SEED.
+
+2023/12/19 08:54:44 info     sslmgr         sslmgr- 0  SSLMGR daemon is ready.
+
+2023/12/19 08:54:44 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to IKE daemon exit.
+
+2023/12/19 08:54:44 info     vpn            keymgr- 0  KEYMGR daemon is ready.
+
+2023/12/19 08:54:44 info     satd           satd-da 0  SATD daemon is ready.
+
+2023/12/19 08:54:44 info     vpn            ike-dae 0  IKE daemon is ready.
+
+2023/12/19 08:54:44 info     ras            rasmgr- 0  RASMGR daemon is ready.
+
+2023/12/19 08:54:44 info     vpn            keymgr- 0  KEYMGR sync all IPSec SA to Flow no longer needed.
+
+2023/12/19 08:54:44 info     vpn            keymgr- 0  KEYMGR daemon is initializing.
+
+2023/12/19 08:54:44 info     satd           satd-da 0  SATD daemon is initializing.
+
+2023/12/19 08:54:44 info     vpn            ike-dae 0  IKE daemon is initializing.
+
+2023/12/19 08:54:44 info     ras            rasmgr- 0  RASMGR daemon is initializing.
+
+2023/12/19 08:54:44 info     routing        routed- 0  Route daemon is initializing.
+
+2023/12/19 08:54:44 info     userid         connect 0  User-ID Client is connected to collector (null): Serial-number panorama2, vsys_id 1
+
+2023/12/19 08:54:44 info     userid         connect 0  User-ID Client is connected to collector (null): Serial-number panorama, vsys_id 1
+
+2023/12/19 08:54:44 high     general        system- 1  The system is starting up.
+
+2023/12/19 08:54:43 info     routing        routed- 0  Route daemon is ready.
+
+2023/12/19 08:54:43 info     general        general 0  VPN Disable mode = off
+
+
+ 
+
+'cfg.reportd.enable': NO_MATCHES
+
+2023-12-19 09:31:52.112 -0800 Error:  main(pan_logquery.c:767): >> setting nlogs to 500000
+
